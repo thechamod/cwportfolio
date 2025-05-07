@@ -37,36 +37,36 @@ export default function PortfolioSection() {
 
   const musicProjects = [
     {
-      title: "Portfolio Project 3",
-      description: "Comprehensive portfolio showcasing my music production skills and creative sound design",
+      title: "Untitled Track",
+      description: "Latest recorded, mixed, and mastered Benzzy's new track, showcasing professional vocal processing and sound engineering.",
       image: "/placeholder.svg?height=600&width=800",
       audioSample: "/sample1.mp3",
       spotifyLink: "https://spotify.com",
       type: "Latest Project",
     },
     {
-      title: "Neon Dreams",
-      description: "Electronic music album with synthwave influences",
+      title: "Upcoming Track",
+      description: "Currently producing 'Onija' — Sasindu Anuradha's latest track. I'm handling the full production process, including recording, mixing, and mastering to deliver a polished and emotionally powerful sound.",
       image: "/placeholder.svg?height=600&width=800",
       audioSample: "/sample1.mp3",
       spotifyLink: "https://spotify.com",
-      type: "Album",
+      type: "Track",
     },
     {
-      title: "Digital Horizon",
-      description: "EDM single with futuristic sound design",
+      title: "SAVE THIS - Y30",
+      description: "Recorded at studio, Y30's 'SAVE THIS' is a hard-hitting hip-hop track featuring aggressive flows and clean, studio-quality sound. I handled the full recording, mixing, and mastering process. Now available on YouTube.",
       image: "/placeholder.svg?height=600&width=800",
       audioSample: "/sample2.mp3",
       spotifyLink: "https://spotify.com",
       type: "Single",
     },
     {
-      title: "Midnight Pulse",
-      description: "Deep house track with atmospheric elements",
+      title: "Untitled Album",
+      description: "Upcoming album by Bloodroots featuring powerful collaborations with Y30, Rix, and W. I'm overseeing the full production, including recording, mixing, and mastering to deliver a cohesive and high-impact sound across all tracks.",
       image: "/placeholder.svg?height=600&width=800",
       audioSample: "/sample3.mp3",
       spotifyLink: "https://spotify.com",
-      type: "EP",
+      type: "Album",
     },
   ]
 
