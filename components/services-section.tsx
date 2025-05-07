@@ -55,12 +55,6 @@ export default function ServicesSection() {
       color: "primary",
     },
     {
-      icon: <Wand2 className="h-10 w-10" />,
-      title: "Creative Direction",
-      description: "Artistic vision and direction for multimedia projects",
-      color: "secondary",
-    },
-    {
       icon: <Database className="h-10 w-10" />,
       title: "App Development",
       description: "Full-stack application development with modern frameworks",
@@ -71,12 +65,6 @@ export default function ServicesSection() {
       title: "Motion Graphics",
       description: "Eye-catching motion graphics and visual effects for videos",
       color: "primary",
-    },
-    {
-      icon: <Camera className="h-10 w-10" />,
-      title: "Video Production",
-      description: "End-to-end video production from concept to final delivery",
-      color: "secondary",
     },
   ]
 
