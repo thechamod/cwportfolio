@@ -126,9 +126,9 @@ export default function ContactSection() {
   ]
 
   const socialLinks = [
-    { icon: <Instagram className="h-5 w-5" />, href: "https://instagram.com" },
+    { icon: <Instagram className="h-5 w-5" />, href: "https://instagram.com/thechamod" },
     { icon: <Twitter className="h-5 w-5" />, href: "https://twitter.com" },
-    { icon: <Youtube className="h-5 w-5" />, href: "https://youtube.com" },
+    { icon: <Youtube className="h-5 w-5" />, href: "https://youtube.com/" },
     { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com" },
   ]
 
