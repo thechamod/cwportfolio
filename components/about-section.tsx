@@ -49,7 +49,7 @@ export default function AboutSection() {
       description: "Founded Onyx Music Studio for professional productions",
     },
     {
-      year: "2023",
+      year: "2024",
       title: "Full-Stack Developer",
       description: "Expanded skills to include modern web frameworks and technologies",
     },
@@ -121,13 +121,6 @@ export default function AboutSection() {
               Today, I blend my artistic sensibilities with technical expertise to craft websites and applications that
               not only function flawlessly but also engage users on an emotional level.
             </motion.p>
-
-            <motion.div variants={itemVariants} className="pt-4">
-              <Button className="bg-primary hover:bg-primary/80 text-white rounded-full group">
-                Download Resume
-                <Download className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
-              </Button>
-            </motion.div>
           </motion.div>
         </div>
 
