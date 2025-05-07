@@ -20,17 +20,17 @@ export default function MusicPlayer() {
     {
       title: "Ambient Electronica",
       artist: "Chamod Wijekoon",
-      src: "https://files.catbox.moe/dbu8ig.mp3",
+      src: "https://files.catbox.moe/kue9uq.mp3",
     },
     {
       title: "Neon Dreams",
       artist: "Chamod Wijekoon",
-      src: "https://files.catbox.moe/dbu8ig.mp3",
+      src: "https://files.catbox.moe/kue9uq.mp3",
     },
     {
       title: "Digital Horizon",
       artist: "Chamod Wijekoon",
-      src: "https://files.catbox.moe/dbu8ig.mp3",
+      src: "https://files.catbox.moe/kue9uq.mp3",
     },
   ]
 
@@ -56,7 +56,7 @@ export default function MusicPlayer() {
     audio.addEventListener("ended", handleEnded)
 
     // Set initial volume
-    audio.volume = volume / 100
+    audio.volume = volume / 60
 
     return () => {
       audio.removeEventListener("timeupdate", updateTime)
@@ -69,7 +69,7 @@ export default function MusicPlayer() {
     const audio = audioRef.current
     if (!audio) return
 
-    audio.volume = isMuted ? 0 : volume / 100
+    audio.volume = isMuted ? 0 : volume / 60
   }, [volume, isMuted])
 
   const togglePlay = () => {
