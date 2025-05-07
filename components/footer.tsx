@@ -36,7 +36,6 @@ export default function Footer() {
             className="text-center md:text-right"
           >
             <p className="text-white/70 mb-2">&copy; {currentYear} Chamod Wijekoon. All rights reserved.</p>
-            <p className="text-white/50 text-sm">Created by Chamod Wijekoon</p>
           </motion.div>
         </div>
 
