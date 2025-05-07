@@ -108,19 +108,19 @@ export default function ContactSection() {
     {
       icon: <Mail className="h-5 w-5" />,
       title: "Email",
-      content: "chamod@example.com",
-      link: "mailto:chamod@example.com",
+      content: "Gimhanwijekoon5@gmail.com",
+      link: "mailto:Gimhanwijekoon5@gmail.com",
     },
     {
       icon: <Phone className="h-5 w-5" />,
       title: "Phone",
-      content: "+1 (234) 567-8901",
-      link: "tel:+12345678901",
+      content: "+94 (72) 128-5842",
+      link: "tel:+94721285842",
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       title: "Location",
-      content: "New York, USA",
+      content: "Madipola, Sri Lanka",
       link: "#",
     },
   ]
