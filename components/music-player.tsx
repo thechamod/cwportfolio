@@ -56,7 +56,7 @@ export default function MusicPlayer() {
     audio.addEventListener("ended", handleEnded)
 
     // Set initial volume
-    audio.volume = volume / 60
+    audio.volume = volume / 100
 
     return () => {
       audio.removeEventListener("timeupdate", updateTime)
@@ -69,7 +69,7 @@ export default function MusicPlayer() {
     const audio = audioRef.current
     if (!audio) return
 
-    audio.volume = isMuted ? 0 : volume / 60
+    audio.volume = isMuted ? 0 : volume / 100
   }, [volume, isMuted])
 
   const togglePlay = () => {
