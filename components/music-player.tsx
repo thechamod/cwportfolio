@@ -20,17 +20,17 @@ export default function MusicPlayer() {
     {
       title: "Ambient Electronica",
       artist: "Chamod Wijekoon",
-      src: "/sample1.mp3",
+      src: "https://files.catbox.moe/kue9uq.mp3",
     },
     {
       title: "Neon Dreams",
       artist: "Chamod Wijekoon",
-      src: "/sample2.mp3",
+      src: "https://files.catbox.moe/kue9uq.mp3",
     },
     {
       title: "Digital Horizon",
       artist: "Chamod Wijekoon",
-      src: "/sample3.mp3",
+      src: "https://files.catbox.moe/kue9uq.mp3",
     },
   ]
 
