@@ -90,7 +90,7 @@ export default function AboutSection() {
             className="relative"
           >
             <div className="relative rounded-lg overflow-hidden aspect-[4/5] max-w-md mx-auto">
-              <Image src="https://z-p3-scontent.fcmb7-1.fna.fbcdn.net/v/t39.30808-6/481783135_606956228833677_299344028049800557_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF4qqa1m9aI9Q_6tqqC5HjMBIoCRLpIYu4EigJEukhi7u4CbN4qt6HMNXNwfzqLHK_ksSAYRO0-VN4Gk0i-r00J&_nc_ohc=R5jQO-pXhgMQ7kNvwHdFqyW&_nc_oc=AdloxpUKBoJMFk0p0o2HJfn8_tblnfLMLRr9N4DShXLIfOdDVDE_sgEnODJhUXvFj6k&_nc_zt=23&_nc_ht=z-p3-scontent.fcmb7-1.fna&_nc_gid=9DzOrswGwCduUVI4gH4GZg&oh=00_AfJ13VMLCB23esyF1F62Y0SRHmU7Un0snsVz8_f7M8S90g&oe=6820C762" alt="Chamod Wijekoon" fill className="object-cover" />
+              <Image src="https://files.catbox.moe/hqtzxd.JPG" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
             </div>
 
